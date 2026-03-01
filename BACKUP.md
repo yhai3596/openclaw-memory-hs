@@ -3,7 +3,7 @@
 ## 备份架构
 
 ```
-本地Git仓库 → 远程仓库 (待配置)
+本地Git仓库 → GitHub: https://github.com/yhai3596/openclaw-memory-hs.git
               ↓
           自动/手动备份
 ```
@@ -54,12 +54,18 @@ git checkout HEAD -- <文件路径>
 ## 当前状态
 
 - [x] 本地git初始化
-- [ ] 配置远程仓库
-- [ ] 设置自动备份
+- [x] 配置远程仓库 (GitHub)
+- [ ] 设置自动备份 (cron)
 - [ ] 测试恢复流程
+
+## 远程仓库
+
+- **平台**: GitHub
+- **地址**: https://github.com/yhai3596/openclaw-memory-hs.git
+- **分支**: main
 
 ## 待确认
 
-- 远程仓库平台偏好
 - 是否需要加密敏感信息
-- 自动备份触发条件（时间/事件）
+- 自动备份触发条件（建议：每天/每10次heartbeat）
+- 整理频率（建议：每10次heartbeat整理MEMORY.md）
