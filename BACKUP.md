@@ -55,6 +55,7 @@ git checkout HEAD -- <文件路径>
 
 - [x] 本地git初始化
 - [x] 配置远程仓库 (GitHub)
+- [x] 完成首次推送（使用Fine-grained PAT）
 - [ ] 设置自动备份 (cron)
 - [ ] 测试恢复流程
 
