@@ -39,7 +39,9 @@ Alan是企业AI数字营销领域的实践者，专注于将AI技术应用到营
 - 采用heartbeat机制定期整理记录
 
 ### 备份
-- GitHub远程仓库 (待用户提供)
+- GitHub: https://github.com/yhai3596/openclaw-memory-hs.git
+- 状态: 远程仓库已配置，推送待认证
+- 建议: 使用SSH或Personal Access Token
 
 ---
 
